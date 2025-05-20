@@ -1,6 +1,7 @@
 # Brainfuck JIT Compiler
 
-Prosty i szybki kompilator JIT dla języka **Brainfuck** autorstwa Kamila Malickiego.
+Prosty i szybki kompilator JIT dla języka **Brainfuck** 
+autorstwa Kamila Malickiego.
 
 ---
 
