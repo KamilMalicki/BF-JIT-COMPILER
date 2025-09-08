@@ -1,30 +1,37 @@
-# Brainfuck JIT Compiler
+# Kompilator JIT dla Brainfuck
 
-Prosty i szybki kompilator JIT dla języka **Brainfuck** 
+Prosty i szybki kompilator JIT (Just-In-Time) dla języka **Brainfuck**,
 autorstwa Kamila Malickiego.
 
 ---
 
-## Co to jest?
+## Czym jest kompilator JIT?
 
-Program, który zamienia kod Brainfuck bezpośrednio na natywny kod maszynowy i od razu go wykonuje.  
-Dzięki temu działanie jest dużo szybsze niż w klasycznych interpreterach.
-
----
-
-## Do czego to służy?
-
-- Uruchamianie programów Brainfuck szybko i efektywnie.
-- Bez zapisywania pośrednich plików czy ręcznej kompilacji.
-- Proste narzędzie do eksperymentów i nauki Brainfucka.
+Kompilator JIT dla Brainfuck to program, który bezpośrednio tłumaczy kod źródłowy na natywny kod maszynowy, a następnie natychmiast go wykonuje. Dzięki temu działanie jest znacznie szybsze niż w przypadku tradycyjnego interpretera, który przetwarza i uruchamia kod linijka po linijce.
 
 ---
 
-## Jak korzystać?
+## Główne cechy i zastosowania
 
-1. Skopiuj plik `bf_jit` do swojego systemu (ważne aby to był linux!!!).  
-2. Przygotuj plik z kodem Brainfuck, np. `program.bf`.  
-3. W terminalu uruchom:  
+To narzędzie zostało zaprojektowane z myślą o wydajności i łatwości użytkowania, co czyni je idealnym do:
 
-```bash
-./bf_jit program.bf
+- **Szybkiej egzekucji:** Uruchamiaj programy Brainfuck ze znacznym wzrostem wydajności.
+- **Uproszczonego przepływu pracy:** Kompiluj i uruchamiaj kod bez tworzenia pośrednich plików czy wymagania ręcznej kompilacji.
+- **Narzędzia edukacyjnego:** Proste narzędzie do eksperymentowania i nauki języka Brainfuck.
+
+---
+
+## Jak używać?
+
+Aby rozpocząć, po prostu wykonaj te kroki na systemie Linux:
+
+1.  **Pobierz plik wykonywalny:** Skopiuj plik wykonywalny `bf_jit` do swojego systemu. Pamiętaj, że ten kompilator jest przeznaczony specjalnie dla systemu Linux.
+2.  **Przygotuj swój kod:** Utwórz plik zawierający kod Brainfuck, na przykład `program.bf`.
+3.  **Uruchom z terminala:** Wykonaj kompilator, podając ścieżkę do swojego pliku jako argument w terminalu:
+
+    ```bash
+    ./bf_jit program.bf
+    ```
+
+Kompilator natychmiast przetłumaczy i uruchomi Twój program.
+```eof
