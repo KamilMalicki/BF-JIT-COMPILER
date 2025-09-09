@@ -25,7 +25,7 @@ To narzędzie zostało zaprojektowane z myślą o wydajności i łatwości użyt
 
 Aby rozpocząć, po prostu wykonaj te kroki na systemie Linux:
 
-1.  **Pobierz plik wykonywalny:** Skopiuj plik wykonywalny `bf_jit` do swojego systemu. Pamiętaj, że ten kompilator jest przeznaczony specjalnie dla systemu Linux.
+1.  **Pobierz plik wykonywalny:** Skopiuj plik wykonywalny `bf_jit-linux-{arch}` do swojego systemu. Pamiętaj, że ten kompilator jest przeznaczony specjalnie dla systemu Linux.
 2.  **Przygotuj swój kod:** Utwórz plik zawierający kod Brainfuck, na przykład `program.bf`.
 3.  **Uruchom z terminala:** Wykonaj kompilator, podając ścieżkę do swojego pliku jako argument w terminalu:
 
