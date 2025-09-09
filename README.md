@@ -30,7 +30,7 @@ Aby rozpocząć, po prostu wykonaj te kroki na systemie Linux:
 3.  **Uruchom z terminala:** Wykonaj kompilator, podając ścieżkę do swojego pliku jako argument w terminalu:
 
     ```bash
-    ./bf_jit program.bf
+    ./bf_jit-linux-{arch} program.bf
     ```
 
 Kompilator natychmiast przetłumaczy i uruchomi Twój program.
